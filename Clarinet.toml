@@ -1,0 +1,29 @@
+[project]
+name = 'Blockchain-Based-Foster-Care-Managemen'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.child-profile]
+path = 'contracts/child-profile.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.foster-home-verification]
+path = 'contracts/foster-home-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.service-coordination]
+path = 'contracts/service-coordination.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
