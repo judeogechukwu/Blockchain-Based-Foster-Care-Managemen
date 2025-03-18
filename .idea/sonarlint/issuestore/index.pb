@@ -11,3 +11,5 @@ W
 'contracts/foster-home-verification.clar,2/2/22e79960dca321e8ffdc64ec3a9e9aae4ac03f5b
 V
 &tests/foster-home-verification.test.ts,2/e/2e3c0d3ae059836cf9667efce5aadd8740178b7a
+S
+#contracts/service-coordination.clar,9/8/985ae70c909d78a91faf76b129d3be9d5fbe2c8d
